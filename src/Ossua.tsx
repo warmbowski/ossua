@@ -3,6 +3,8 @@ import * as L from 'leaflet';
 import './Ossua.css';
 import '../node_modules/leaflet/dist/leaflet.css';
 
+// tslint:disable-next-line:no-consecutive-blank-lines
+
 class Ossua extends React.Component {
   componentDidMount() {
     const map = L.map('map_ossua', {
